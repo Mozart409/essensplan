@@ -12,5 +12,5 @@ derive_more = { version = "2.0.1", features = ["display"] }
 dotenvy = "0.15.7"
 env_logger = "0.11.7"
 log = "0.4.27"
-tokio = { version = "1.44.1", features = ["full"] }
+tokio = { version = "1.44.2", features = ["full"] }
 sqlx = { version = "0.8", features = [ "runtime-tokio", "postgres", "time", "derive", "macros", "migrate",  ] }
